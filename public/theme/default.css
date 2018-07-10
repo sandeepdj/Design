@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    background-color: #EEE;
+    height: 100%;
+	font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+
+/**************** Header *******************/
+
+.wrapper {
+    min-height: 100%;
+    padding-top: 61px;
+}
+
+.fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    top: 0;
+}
+
+.top-navbar {
+    background-color: #FFF;
+    border: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid #e6e5e5;
+    padding: 0;
+}
+
+.navbar-header {
+    display: flex;
+    width: 230px;
+}
+
+.top-navbar .navbar-header .navbar-brand {
+    line-height: 60px;
+    height: 60px;
+    width: 142px;
+    background-image: url(../lib/images/logo.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    padding: 0 20px;
+    margin: 0;
+    display: block;
+}
+.right-navbar{
+	    padding-right: 20px;
+    width: calc(100% - 230px);
+}
+
+.top-header .page-title{
+	    font-size: 1.462rem;
+    line-height: 60px;
+    float: left;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0 20px;
+    color: #404040;
+}
+
+
+/**************** sidebar *******************/
+
+
+
+
+
+.content-container{
+	    position: relative;
+    left: 0;
+    margin-left: 230px;
+    min-height: 100%;
+}
+
+.bg-cover {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.login-wrap{
+	padding-right: 4.5rem!important;
+	padding-left: 4.5rem!important;
+}
+.bg-white{
+	background-color:#fff;
+}
+
+ 
+
+
+ /****************** LOGIN *************************/
+ .mt--1, .my--1 {
+    margin-top: -.1875rem!important;
+}
+
+.mr--3, .mx--3 {
+    margin-right: -.75rem!important;
+}
+
+.sign-title{
+	    font-weight: 600;
+    line-height: 1.1;
+        font-size: 2rem;
+}
+.login-page{
+	    border-top: 1px solid #e3ebf6!important;
+	border-width: 2px !important;
+	    border-color: #2c7be5!important;
+
+}

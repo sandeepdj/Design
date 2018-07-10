@@ -1,0 +1,42 @@
+   a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+.align-items-center {
+    align-items: center!important;
+}
+
+.justify-content-center {
+    justify-content: center!important;
+}
+.text-muted {
+    color: #95aac9!important;
+}
+
+.form-control::-webkit-input-placeholder{
+	opacity:1;color:#b1c2d9
+}
+.form-control:-ms-input-placeholder,.form-control::-ms-input-placeholder{
+	opacity:1;
+	color:#b1c2d9
+}
+.form-control::placeholder{
+	opacity:1;
+	color:#b1c2d9
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.form-control{
+    font-size: .9375rem;
+    padding: .5rem .75rem;
+     color: #12263f;
+    border: 1px solid #d2ddec;
+    border-radius: .375rem;
+    background-clip: padding-box;
+}
+.form-control:focus{
+  	box-shadow: none;
+}
